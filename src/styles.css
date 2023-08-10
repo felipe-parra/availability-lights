@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+#traffic-lights {
+  padding: 0.4rem;
+  margin: 0 auto;
+  width: 150px;
+  z-index: 1;
+  border: 1px solid white;
+  background-color: black;
+}
+#traffic-lights::after {
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+}
+
+.light {
+  background-color: grey;
+  z-index: 2;
+  margin: 0.4rem auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  opacity: 0.4;
+}
+
+.stop {
+  background-color: red;
+}
+
+.warning {
+  background-color: gold;
+}
+
+.drive {
+  background: #3ccf4e;
+}
+
+.active {
+  border: 5px solid white;
+  opacity: 1;
+}
