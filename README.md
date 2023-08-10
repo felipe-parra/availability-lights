@@ -2,7 +2,7 @@
 This simple project demonstrates a Traffic Light Availability Monitor built using React. The monitor displays a simulated traffic light that cycles through "stop," "warning," and "drive" lights, indicating availability status.
 
 ## Demo
-Check out the live demo: [https://availability-lights.vercel.app/](Demo)
+Check out the live demo: https://availability-lights.vercel.app/
 
 ## Features
 Simulates a traffic light sequence with "stop," "warning," and "drive" lights.
